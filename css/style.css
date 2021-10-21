@@ -11,7 +11,7 @@
 
 body {
   background: #ffffff;
-  color: #898989;
+  color: #0f0f0f;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -70,7 +70,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: #070707;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -86,7 +86,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #020202;
   line-height: 28px;
 }
 
@@ -178,7 +178,8 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: rgb(255, 255, 255);
+  opacity: 70%;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -222,8 +223,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 .responsive {
@@ -260,7 +261,7 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .header-content p {
@@ -296,7 +297,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #88ec6a8a;
 }
 
 #about .div-img-bg .about-img img {
@@ -352,7 +353,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #092eff;
   line-height: 44px;
 }
 
@@ -379,7 +380,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #06fa6b;
 }
 
 .owl-nav {
@@ -409,7 +410,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #20c50a;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
@@ -424,7 +425,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #0a30db;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;

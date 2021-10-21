@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Robert Shields IV.", "Engineer.", "Instructor.", "Freelancer.", "Photographer"],
-      typeSpeed: 100,
+      strings: ["Robert Shields IV.", " A Software Engineer.", "A Fitness Instructor.", "A Landscape Photographer"],
+      typeSpeed: 50,
       loop: true,
     });
   });
