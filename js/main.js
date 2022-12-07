@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     $(this).addClass('active');
 
-    var target = this.hash,
+    let target = this.hash,
         menu = target;
 
     target = $(target);
@@ -38,10 +38,10 @@ $(document).ready(function() {
 
   function onScroll(event) {
     if ($('.home').length) {
-      var scrollPos = $(document).scrollTop();
+      let scrollPos = $(document).scrollTop();
       $('nav ul li a').each(function() {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
+        let currLink = $(this);
+        let refElement = $(currLink.attr("href"));
       });
     }
   }
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 
   $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+    let scroll = $(window).scrollTop();
     if (scroll > 200 ) {
       $("#main-nav, #main-nav-subpage").slideDown(700);
       $("#main-nav-subpage").removeClass('subpage-nav');
@@ -75,7 +75,7 @@ $(document).ready(function() {
   //  Typed Js
   // ========================================================================= //
 
-  var typed = $(".typed");
+  let typed = $(".typed");
 
   $(function() {
     typed.typed({
@@ -107,7 +107,7 @@ $(document).ready(function() {
   // ========================================================================= //
 
 
-  var portfolioIsotope = $('.portfolio-container').isotope({
+  let portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
     layoutMode: 'fitRows'
   });
@@ -124,7 +124,7 @@ $(document).ready(function() {
   //  magnificPopup
   // ========================================================================= //
 
-  var magnifPopup = function() {
+  let magnifPopup = function() {
     $('.popup-img').magnificPopup({
       type: 'image',
       removalDelay: 300,
